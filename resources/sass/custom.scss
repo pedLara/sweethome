@@ -1,0 +1,40 @@
+.carousel-caption h1
+{
+	font-family: cursive;
+	font-weight: bolder; 
+    color: deepskyblue; 
+    text-shadow: 4px 4px 3px black; 
+    font-size: 40px;
+}
+.carousel-caption p
+{
+	font-family: cursive;
+    text-shadow: 2px 2px 3px black; 
+	font-size: 20px;
+}
+.carousel-inner:after 
+{
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.1);
+}
+#appear
+{
+    display: none;
+}
+.logo , .profile
+{
+    width:32px; 
+    height:32px; 
+    top:10px; 
+    border-radius:50%;
+}
+.brs // Buy | Rent | Sell
+{
+    display: inline; 
+    font-size:12px;
+}
